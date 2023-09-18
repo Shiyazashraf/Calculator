@@ -92,7 +92,7 @@ operationButtons.forEach(button => {
 })
 allClearButton.addEventListener('click',allClear);
 clearButton.addEventListener('click',clear);
-equalButton.addEventListener('click',button => {
+equalButton.addEventListener('click',() => {
     compute();
     update();
 })
