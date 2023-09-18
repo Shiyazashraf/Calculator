@@ -33,16 +33,21 @@ body {
     border: 1px solid white;
     
 }
-.display-container input {
-    width: 100%;
-    height: 100%;
-    font-size: 50px;
-    text-align: end;
-    padding: 20px;
-    background-color: rgb(43,42,42);
+.display-container #current{
+    position: absolute;
+    right:2px;
+    padding-right: 1rem;
+    font-size: 40px;
     color: white;
-    padding-top: 100px;
-    
+    padding-top: 90px;
+}
+.display-container #previous{
+    position: absolute;
+    right:2px;
+    padding-right: 1rem;
+    font-size: 20px;
+    color: rgb(199, 196, 196);
+    padding-top: 50px;
 }
 
 .buttons-container {
@@ -95,6 +100,9 @@ body {
     box-shadow: 0px 0px 5px rgb(15, 15, 15);
  }
  
+ #ac, #del {
+    color: rgb(255, 227, 42);
+ }
 
 
 
